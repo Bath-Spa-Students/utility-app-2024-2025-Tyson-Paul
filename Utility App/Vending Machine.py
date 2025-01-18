@@ -94,7 +94,7 @@ class VendingMachine:
             print("-" * 60)
 
     def run(self):
-         # Ti start a loop to repeatedly show the menu and process purchases
+         # To start a loop to repeatedly show the menu and process purchases
         while True:
             self.display_menu(show_welcome=True)
             try:
